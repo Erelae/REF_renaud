@@ -4,33 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cocktails Mix : Recettes</title>
+    <meta name="description" content="Découvrez toutes les recettes de cocktails de Cocktails Mix, allant du classique (Sex On the Beach, Mojito, Tequila Sunrise, Cuba Libre) au plus original !">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script type="application/javascript" src="./javascript/script.js" defer></script>
+    <title>Cocktails Mix - Toutes les recettes</title>
+
+    <!-- Données structurées d'un carrousel de recettes pour la SERP (liens imaginaires)-->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "ItemList",
       "name": "Recettes de cocktails exotiques",
-      "itemListElement": [
+      "itemListElement": 
         {
           "@type": "ListItem",
           "position": 1,
           "name": "Sex on the beach",
           "image": "https://cocktails-mix.fr/img/sex-on-the-beach.jpg",
-          "url": "https://cocktails-mix.fr/recettes/sex-on-the-beach.html"
+          "url": "https://cocktails-mix.fr/recettes/alcool/sex-on-the-beach.html"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "Pina Colada",
           "image": "https://cocktails-mix.fr/img/pina-colada.jpg",
-          "url": "https://cocktails-mix.fr/recettes/pina-colada.html"
+          "url": "https://cocktails-mix.fr/recettes/alcool/pina-colada.html"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Cuba Libre",
           "image": "https://cocktails-mix.fr/img/cuba-libre.jpg",
-          "url": "https://cocktails-mix.fr/recettes/cuba-libre.html"
+          "url": "https://cocktails-mix.fr/recettes/alcool/cuba-libre.html"
         }]
     }
     </script>
@@ -38,13 +43,32 @@
 <header>
     <nav class="nav-container">
         <ul>
-            <li><a href="./recettes.html">Nos recettes</a></li>
+            <li><a href="./index.html">Nos recettes</a></li>
             <li><a href="./blog.html">Le blog</a></li>
-            <li><a href="./a-propos.html"></a>À Propos de Cocktails-Mix</li>
+            <li><a href="./a-propos.html"></a>À propos de Cocktails-Mix</li>
         </ul>
     </nav>
 </header>
 <body>
-    
+    <!-- ici code page de recherche des recettes par rubrique, liens vers recettes, etc -->
 </body>
+<footer>
+    <section class="contact">
+        <h1>Contactez-nous</h1>
+        <p class="numero">
+            +33 6 45 34 65 23
+        </p>
+        <a href="mailto:contact@gmail.com" title="contact@gmail.com">contact@gmail.com</a>
+    </section>
+    <section class="reseaux-sociaux-container">
+        <h1>Découvrez les nouvelles recettes originales de Cocktails Mix sur les réseaux !</h1>
+        <ul class="reseaux-sociaux"> 
+            <!-- mettre les liens correspondants aux comptes des réseaux sociaux -->
+            <li class="rs"><a href="" title="Instagram">Instagram</a></li>
+            <li class="rs"><a href="" title="Youtube">Youtube</a></li>
+            <li class="rs"><a href="" title="TikTok">TikTok</a></li>
+            <li class="rs"><a href="" title="Facebook">Facebook</a></li>
+        </ul>
+    </section>
+</footer>
 </html>
